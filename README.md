@@ -7,9 +7,7 @@ For Music Multi-play
 
 MULTI_PLAY_INTERVAL 定义了多重奏两两间隔时间
 
-
 THREAD_NUM 定义了几重奏
-
 
 ENTRY_WAITING_TIME 定义了初始等多久播放
 
