@@ -2,8 +2,9 @@ import time
 from playsound import playsound
 from threading import Thread
 
-THREAD_NUM = 3
-MULTI_PLAY_INTERVAL = 0.40
+TOTAL_TIME = float(1.2)
+THREAD_NUM = 50
+MULTI_PLAY_INTERVAL = TOTAL_TIME / THREAD_NUM
 ENTRY_WAITING_TIME = 0
 
 
