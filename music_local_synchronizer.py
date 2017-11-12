@@ -2,9 +2,9 @@ import time
 from playsound import playsound
 from threading import Thread
 
-THREAD_NUM = 2
+THREAD_NUM = 3
 MULTI_PLAY_INTERVAL = 0.40
-ENTRY_WAITING_TIME = 3
+ENTRY_WAITING_TIME = 0
 
 
 def music_thread():
