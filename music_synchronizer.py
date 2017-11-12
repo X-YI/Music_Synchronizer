@@ -3,12 +3,12 @@ from playsound import playsound
 from threading import Thread
 
 THREAD_NUM = 2
-MULTI_PLAY_INTERVAL = 0.4
-ENTRY_WAITING_TIME = 5
+MULTI_PLAY_INTERVAL = 0.40
+ENTRY_WAITING_TIME = 3
 
 
 def music_thread():
-    mp3_local_file = '/Users/yixin/IdeaProjects/Music_Synchronizer/Music/Alan_Walker_Fade.flac'
+    mp3_local_file = './Music/Alan_Walker_Fade.flac'
     playsound(mp3_local_file)
 
 
